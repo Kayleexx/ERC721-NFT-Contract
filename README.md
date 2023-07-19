@@ -22,15 +22,12 @@ This project contains a simple ERC-721 compliant smart contract for creating and
 
    ```bash
    npm install
-
-
+   
 ## Deployment
 
 To deploy the MyERC721 contract to the Goerli testnet, run the following command:
 
- 
 `npx hardhat run scripts/deploy.js --network goerli`
-
 
 This will deploy the contract and display the contract address on the console.
 
@@ -38,7 +35,6 @@ This will deploy the contract and display the contract address on the console.
 To run the tests, use the following command:
 
 `npx hardhat test`
-
 
 ## Deployment
 The contract provides the following functionalities:
@@ -80,8 +76,12 @@ const balance = await myERC721.balanceOf(ownerAddress);
 console.log("NFT Balance of Owner:", balance.toString());
 ```
 
+## Contributing
+Contributions to this repository are not accepted as it is for personal assignments. However, if you have suggestions or feedback, feel free to open an issue.
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 
 Please make sure to replace placeholders like `your-username`, `your-repo`, `0xRecipientAddress`, `https://ipfs.io/ipfs/QmTokenMetadata`, `0xOwnerAddress`, etc., with the actual values specific to your project.
