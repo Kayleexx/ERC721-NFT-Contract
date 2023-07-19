@@ -1,4 +1,4 @@
-# MyERC721 NFT Contract
+# ERC721 NFT Contract
 
 This project contains a simple ERC-721 compliant smart contract for creating and managing non-fungible tokens (NFTs) on the Polygon blockchain. The contract allows users to mint new NFTs, set their metadata (URI), and check the total supply and balance of NFTs.
 
@@ -25,9 +25,13 @@ This project contains a simple ERC-721 compliant smart contract for creating and
    
 ## Deployment
 
-To deploy the MyERC721 contract to the Goerli testnet, run the following command:
+To deploy the ERC721 contract to the Goerli testnet, run the following command:
 
 `npx hardhat run scripts/deploy.js --network goerli`
+
+To deploy the ERC721 contract to the Mumbai testnet, run the following command:
+
+`npx hardhat run scripts/deploy.js --network mumbai`
 
 This will deploy the contract and display the contract address on the console.
 
@@ -83,5 +87,3 @@ Contributions to this repository are not accepted as it is for personal assignme
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-
-Please make sure to replace placeholders like `your-username`, `your-repo`, `0xRecipientAddress`, `https://ipfs.io/ipfs/QmTokenMetadata`, `0xOwnerAddress`, etc., with the actual values specific to your project.
