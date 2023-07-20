@@ -27,12 +27,7 @@ async function main() {
     const tokenId = receipt.events[0].args.tokenId;
     console.log(`Minted NFT with token ID ${tokenId}`);
 
-      // Test balanceOf
-  const balance = await MyERC721.balanceOf(wallet.address);
-
-  // Print the balance of the wallet
-  console.log("MyERC721 wallet balance", wallet.address, "is:", balance.toString());
-  }
+   
 }
 
 // Run the script
