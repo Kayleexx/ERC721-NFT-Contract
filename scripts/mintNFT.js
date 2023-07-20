@@ -26,7 +26,7 @@ async function main() {
     const receipt = await tx.wait();
     const tokenId = receipt.events[0].args.tokenId;
     console.log(`Minted NFT with token ID ${tokenId}`);
-
+  }
    
 }
 
