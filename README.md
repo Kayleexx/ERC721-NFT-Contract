@@ -52,7 +52,7 @@ The contract provides the following functionalities:
 4. `balanceOf(address owner)`: Get the number of NFTs owned by a particular address.
 
 ## Example
-Here's an example of how to use the MyERC721 contract:
+Here's an example of how to use the ERC721 contract:
 
 
 ```javascript
