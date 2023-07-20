@@ -31,6 +31,13 @@ async function main() {
   }
 
   console.log("Batch transfer of NFTs completed successfully!");
+
+  // Test balanceOf
+  const balance = await MyERC721.balanceOf(wallet.address);
+
+  // Print the balance of the wallet
+  console.log("MyERC721 wallet balance", wallet.address, "is:", balance.toString());
+
 }
 
 // Run the script with the Hardhat command line interface
