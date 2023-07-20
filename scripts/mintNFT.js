@@ -7,7 +7,7 @@ async function main() {
 
   // Retrieve the deployed contract instance
   const MyERC721 = await hre.ethers.getContractFactory("MyERC721");
-  const myERC721 = await MyERC721.attach("0x0619e3a59196cc0E199C44fCd2D2756dEDa1C9A1");
+  const myERC721 = await MyERC721.attach("0x1AeB8D9F19A2d608b30C77eb98f03B99ed8CFE0E");
   console.log("Contract address:", myERC721.address);
 
   // Define the IPFS URLs for the NFTs
@@ -26,6 +26,12 @@ async function main() {
     const receipt = await tx.wait();
     const tokenId = receipt.events[0].args.tokenId;
     console.log(`Minted NFT with token ID ${tokenId}`);
+
+      // Test balanceOf
+  const balance = await MyERC721.balanceOf(wallet.address);
+
+  // Print the balance of the wallet
+  console.log("MyERC721 wallet balance", wallet.address, "is:", balance.toString());
   }
 }
 

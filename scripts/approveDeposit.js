@@ -9,8 +9,8 @@ async function main() {
   console.log("Connected to network:", hre.network.name);
 
   // Define the contract addresses for the FxPortal Bridge and MyERC721 contract on Ethereum
-  const bridgeAddress = "0x3d1d3E34f7fB6D26245E6640E1c50710eFFf15bA"; // Replace with the address of the FxPortal Bridge contract on Ethereum
-  const myERC721Address = "0x737822c827f4D6D3B4b969DFc44FBF54FE6d7B08"; // Replace with the address of your deployed MyERC721 contract on Ethereum
+  const bridgeAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de"; // Replace with the address of the FxPortal Bridge contract on Ethereum
+  const myERC721Address = "0x1AeB8D9F19A2d608b30C77eb98f03B99ed8CFE0E"; // Replace with the address of your deployed MyERC721 contract on Ethereum
 
   // Retrieve the deployed MyERC721 contract instance
   const MyERC721 = await hre.ethers.getContractFactory("MyERC721");
