@@ -40,7 +40,7 @@ To run the tests, use the following command:
 
 `npx hardhat test`
 
-## Deployment
+## Features
 The contract provides the following functionalities:
 
 1. `mintNFT(address recipient, string memory tokenURI)`: Mint a new NFT with the given metadata URI and assign it to the specified recipient address.
