@@ -83,7 +83,10 @@ console.log("NFT Balance of Owner:", balance.toString());
 ## Contributing
 Contributions to this repository are not accepted as it is for personal assignments. However, if you have suggestions or feedback, feel free to open an issue.
 
+## Author
+Mitali Sinha 
+
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 
