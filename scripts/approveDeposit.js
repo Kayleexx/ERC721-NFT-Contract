@@ -32,10 +32,8 @@ async function main() {
 
   console.log("Batch transfer of NFTs completed successfully!");
 
-  // Test balanceOf
+  // Test balanceOf the wallet
   const balance = await MyERC721.balanceOf(wallet.address);
-
-  // Print the balance of the wallet
   console.log("MyERC721 wallet balance", wallet.address, "is:", balance.toString());
 
 }
